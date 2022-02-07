@@ -65,7 +65,7 @@
     color: var(--font-color);
     text-decoration: none;
     margin-left: 50px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transitionColor;
 }
 .text__item__about {
     display: flex;
@@ -76,7 +76,7 @@
     color: var(--font-color);
     text-decoration: none;
     color: var(--item-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transitionColor;
 }
 
 .logotype__link:hover,
@@ -95,13 +95,13 @@
 .text__item__about:hover .icon__email,
 .text__item__about:focus .icon__email {
     fill: var(--main-bg-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transitionColor;
 }
 
 .text__item__about:hover .icon__phone,
 .text__item__about:focus .icon__phone {
     fill: var(--main-bg-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transitionColor;
 }
 
 .list,
@@ -164,5 +164,5 @@
     opacity: 1;
     bottom: -1px;
     left: 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transitionColor;
 }

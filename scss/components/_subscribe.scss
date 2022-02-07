@@ -39,7 +39,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--background-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: $transitionBg;
 }
 .subscribe {
     margin-left: 10px;
